@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -21,21 +26,20 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  padding: 30px 80px 0 30px;
-  margin: 0;
 }
 
 .nav__logo {
   height: 39px;
   width: 105px;
   margin-right: auto;
+  padding: 30px 0 0 30px;
 }
 
 .nav__links {
   display: flex;
   column-gap: 20px;
   list-style-type: none;
-  padding: 0;
+  padding: 30px 30px 0 0;
 }
 
 .nav__link {
@@ -48,12 +52,12 @@
 }
 
 .header__content {
-  padding: 183px 0 0 80px;
+  position: absolute;
+  top: 213px;
+  left: 80px;
 }
 
 .header__title {
-  padding: 0;
-  margin: 0;
   max-width: 709px;
   font-style: normal;
   font-weight: 500;
@@ -63,6 +67,7 @@
 }
 
 .header__span-accent {
+  display: block;
   font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: italic;
   font-weight: normal;
@@ -71,15 +76,13 @@
 }
 
 .header__description {
-  margin: 0;
-  padding: 28px 0 0 0;
+  padding-top: 28px;
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  padding-top: 28px;
 }
 
 .header__background {
@@ -112,7 +115,6 @@
 }
 
 .header__address {
-  margin: 0;
   color: #838383;
 }
 
@@ -122,7 +124,6 @@
 }
 
 .recipies__title {
-  margin: 0;
   font-size: 36px;
   line-height: 46px;
   font-weight: 600;
