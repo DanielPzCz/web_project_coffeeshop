@@ -82,7 +82,6 @@
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=aZ4SwqCeQx07z9VR"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -97,7 +96,6 @@
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8?si=iKeidY4T6S3lo-JP"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
@@ -139,12 +137,12 @@
               <label for="date" class="form__label">Fecha y hora </label>
               <input type="date" id="date" class="form__input" required />
 
-              <label for="name" class="form__label"
+              <label for="email" class="form__label"
                 >Tu correo electrónico</label
               >
               <input
                 type="text"
-                id="name"
+                id="email"
                 class="form__input"
                 required
                 placeholder="email@email.com"
@@ -152,7 +150,7 @@
             </div>
             <button type="submit" class="form__button">Reservar</button>
 
-            <label
+            <label for="terms" class="form__label"
               ><input
                 type="checkbox"
                 id="terms"
