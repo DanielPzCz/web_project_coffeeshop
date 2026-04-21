@@ -1,12 +1,18 @@
-Cafetería Triple Espresso
+# Cafetería Triple Espresso
+ 
+A responsive landing page for Triple Espresso, a specialty coffee shop located inside the Triple Peaks Library, a cozy study spot where visitors can grab a coffee, browse recipes, and reserve a table.
+ 
+## Problem it Solves
+ 
+Coffee shops often lack a simple, inviting web presence. This page gives Triple Espresso a clean digital home where customers can check opening hours, discover coffee recipes, and make a table reservation.
+ 
+## Technologies Used
+ 
+- **HTML5** — Semantic page structure
+- **CSS3** — Styling and visual presentation
+- **Flexbox / CSS Grid** — Responsive layout across sections
+- **BEM Methodology** — Scalable and maintainable CSS class naming
 
-Es un sitio web estático para una cafetería con un diseño moderno y responsivo, donde se presenta información sobre el negocio, sus recetas y un formulario para reservar una mesa.
-
-Tecnologías Utilizadas:
-
-1. HTML - Estructura semántica del sitio web
-2. CSS - Estilos y diseño visual
-3. Flexbox - Sistema de diseño responsivo
-4. Metodología BEM - Nomenclatura de clases CSS organizada
-
-Autór: Daniel Pérez
+## Live Demo
+ 
+[https://danielpzcz.github.io/web_project_coffeeshop/](https://danielpzcz.github.io/web_project_coffeeshop/)
